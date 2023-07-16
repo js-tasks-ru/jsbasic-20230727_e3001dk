@@ -1,1 +1,3 @@
-const sum = (m, n) => m + n;
+function sum (m, n) {
+  return m + n;
+}
