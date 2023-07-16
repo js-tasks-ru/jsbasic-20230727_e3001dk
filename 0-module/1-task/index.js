@@ -1,3 +1,1 @@
-function sum(m, n) {
-  // ваш код...
-}
+const sum = (m, n) => m + n;
