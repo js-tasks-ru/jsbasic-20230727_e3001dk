@@ -11,14 +11,14 @@
 </head>
 
 <body>
-  <div class="container" id="holder" style="padding: 50px;">
-  </div>
+  <div class="container" id="holder" style="padding: 50px;"></div>
 
   <script type="module">
     import StepSlider from './index.js';
 
     let stepSlider = new StepSlider({
-      steps: 5
+      steps: 5,
+      value: 0,
     });
 
     holder.append(stepSlider.elem);
